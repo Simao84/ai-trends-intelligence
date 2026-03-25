@@ -116,6 +116,13 @@ Run the notebooks in order:
 
 ---
 
+##  Security Note
+
+API keys and sensitive credentials are not included in this repository.  
+Environment variables should be used instead.
+
+---
+
 ##  Installation
 git clone https://github.com/Simao84/ai-trends-intelligence.git
 cd ai-trends-intelligence
