@@ -61,3 +61,85 @@ An interactive interface that allows users to:
 ---
 
 ## System Architecture
+Data → NLP Processing → Embeddings → RAG → Streamlit Interface
+---
+
+##  Key Features
+
+-  Semantic search using MiniLM embeddings
+-  Topic modeling with BERTopic
+-  Knowledge graph of AI ecosystem
+-  Retrieval-based question answering
+-  AI trend and sentiment analysis
+-  Interactive dashboard (Streamlit)
+
+---
+
+##  Use Cases
+
+- **Business Intelligence**  
+  Identify emerging AI technologies and market trends
+
+- **Investment Analysis**  
+  Track dominant players and innovation areas
+
+- **Research & Policy**  
+  Analyze ethical debates and AI regulation trends
+
+---
+
+## Dataset
+
+This project uses the AI Media Dataset (2024–2025):
+
+https://www.kaggle.com/datasets/jannalipenkova/ai-media-dataset
+
+Due to file size limitations, the dataset is not included in this repository.
+Please download it manually and place it in the /data folder.
+
+---
+
+## Large Files Notice
+
+Some files are not included due to GitHub size limitations:
+
+- cleaned_ai_media_dataset.parquet
+- documents.pkl
+
+To reproduce the full pipeline:
+
+Download the dataset from Kaggle
+Run the notebooks in order:
+ - Stage 1 → Data processing
+ - Stage 2 → Embeddings
+ - Stage 3 → RAG system
+
+---
+
+##  Installation
+git clone https://github.com/Simao84/ai-trends-intelligence.git
+cd ai-trends-intelligence
+
+pip install -r requirements.txt
+
+---
+
+
+##  Run the App
+streamlit run app.py
+
+---
+
+##  Final Note
+
+This project demonstrates how modern NLP, embeddings, and knowledge graphs can be combined into a scalable AI intelligence system.
+The current version already provides strong analytical capabilities, while future iterations will focus on improving the intelligence and reasoning capabilities of the system.
+
+---
+
+##  Author
+
+Simao Diavita Garcia
+
+
+---
